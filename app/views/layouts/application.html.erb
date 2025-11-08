@@ -24,10 +24,13 @@
   </head>
 
   <body>
-    <% if notice.present? %>
-      <p style="color: green; font-weight: bold;"><%= notice %></p>
-    <% end %>
-    
-    <%= yield %>
+    <%= render "layouts/navbar" %>
+    <div style="padding: 20px;">
+      <% if notice.present? %>
+        <p style="color: green; font-weight: bold;"><%= notice %></p>
+      <% end %>
+
+      <%= yield %>
+    </div>
   </body>
 </html>
