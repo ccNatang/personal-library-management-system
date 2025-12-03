@@ -1,8 +1,8 @@
 # Name of your application. Used to uniquely configure containers.
-service: book_library
+service: personal_library_management_system
 
 # Name of the container image (use your-user/app-name on external registries).
-image: book_library
+image: personal_library_management_system
 
 # Deploy to these servers.
 servers:
